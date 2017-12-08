@@ -5,7 +5,7 @@
     <meta charset="utf-8">
     <title>Train, Train, Train</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="assets/css/style.css">
     <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
 </head>
 
@@ -15,20 +15,25 @@
     </div>
 
     <div class="panel panel-default">
-        <div class="panel-heading">
-            <h3 class="panel-title">CURRENT TRAIN SCHEDULE</h3>
-        </div>
-        <div class="panel-body">
-            <table class="table table-striped">
-                ...
-            </table>
-        </div>
+        <div class="panel-heading">CURRENT TRAIN SCHEDULE</div>
+        <div class ="panel-body">
+        <table class="table table-hover id='train-schedule'">
+            <thead>
+                <tr>
+                <th>TRAIN NAME</th>
+                <th>DESTINATION</th>
+                <th>FREQUENCY (min)</th>
+                <th>NEXT ARRIVAL</th>
+                <th>MINUTES AWAY ($)</th>
+                </tr>
+            </thead>
+            <tbody></tbody>
+        </table>
+    </div>
     </div>
 
     <div class="panel panel-default">
-        <div class="panel-heading">
-            <h3 class="panel-title">ADD TRAIN</h3>
-        </div>
+        <div class="panel-heading">ADD TRAIN</div>
         <div class="panel-body">
             <form>
                 <div class="form-group">

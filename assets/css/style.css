@@ -1,6 +1,6 @@
 @font-face {
     font-family: "ticketing";
-    src: url("Ticketing.ttf");
+    src: url("../Ticketing.ttf");
 }
 
 body {
@@ -13,7 +13,7 @@ body {
     font-family: "Ticketing", sans-serif;
     color: #ffffff;
     text-align: center;
-    background: url("1.jpg");
+    background: url("../1.jpg");
     background-size: 100% 160%;
 }
 

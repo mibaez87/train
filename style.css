@@ -1,0 +1,36 @@
+@font-face {
+    font-family: "ticketing";
+    src: url("Ticketing.ttf");
+}
+
+body {
+    background-color: #000000;
+    font-family: "Ticketing", sans-serif;
+    font-size: 18px;
+}
+
+.jumbotron {
+    font-family: "Ticketing", sans-serif;
+    color: #ffffff;
+    text-align: center;
+    background: url("1.jpg");
+    background-size: 100% 160%;
+}
+
+.panel,
+.table {
+    margin: 20px;
+    border-color: rgb(247,201,20);
+    border-width: 2px;
+}
+
+.panel-default > .panel-heading,
+.panel-title,
+.btn {
+    color: #000000;
+    background-color: rgb(247,201,20);
+}
+
+.panel-title {
+    font-weight: bold;
+}
